@@ -1,0 +1,90 @@
+[
+  {
+    "id": "py101",
+    "title": "Python for Beginners",
+    "category": "Programming",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "skills": ["Python", "Programming Basics", "Variables", "Functions"],
+    "prerequisites": [],
+    "rating": 4.7,
+    "description": "Learn Python programming from scratch with hands-on projects."
+  },
+  {
+    "id": "ml201",
+    "title": "Machine Learning Fundamentals",
+    "category": "AI/ML",
+    "difficulty": "Intermediate",
+    "duration": "8 weeks",
+    "skills": ["Machine Learning", "Python", "Statistics", "Algorithms"],
+    "prerequisites": ["Python", "Math"],
+    "rating": 4.8,
+    "description": "Master the fundamentals of machine learning and build intelligent systems."
+  },
+  {
+    "id": "web301",
+    "title": "Full Stack Web Development",
+    "category": "Web Development",
+    "difficulty": "Intermediate",
+    "duration": "12 weeks",
+    "skills": ["React", "Node.js", "JavaScript", "Database", "APIs"],
+    "prerequisites": ["JavaScript", "HTML", "CSS"],
+    "rating": 4.6,
+    "description": "Build complete web applications from frontend to backend."
+  },
+  {
+    "id": "ds101",
+    "title": "Data Science with Python",
+    "category": "Data Science",
+    "difficulty": "Beginner",
+    "duration": "6 weeks",
+    "skills": ["Python", "Data Analysis", "Pandas", "NumPy", "Visualization"],
+    "prerequisites": ["Python"],
+    "rating": 4.5,
+    "description": "Analyze data and extract insights using Python libraries."
+  },
+  {
+    "id": "react201",
+    "title": "Advanced React Patterns",
+    "category": "Frontend",
+    "difficulty": "Advanced",
+    "duration": "6 weeks",
+    "skills": ["React", "State Management", "Performance", "Hooks"],
+    "prerequisites": ["React", "JavaScript"],
+    "rating": 4.9,
+    "description": "Master advanced React patterns and build scalable applications."
+  },
+  {
+    "id": "sql101",
+    "title": "SQL and Database Design",
+    "category": "Database",
+    "difficulty": "Beginner",
+    "duration": "4 weeks",
+    "skills": ["SQL", "Database Design", "Queries", "Normalization"],
+    "prerequisites": [],
+    "rating": 4.6,
+    "description": "Learn to design databases and write efficient SQL queries."
+  },
+  {
+    "id": "ai301",
+    "title": "Deep Learning and Neural Networks",
+    "category": "AI/ML",
+    "difficulty": "Advanced",
+    "duration": "10 weeks",
+    "skills": ["Deep Learning", "Neural Networks", "TensorFlow", "PyTorch"],
+    "prerequisites": ["Machine Learning", "Python", "Math"],
+    "rating": 4.9,
+    "description": "Build and train deep neural networks for complex AI tasks."
+  },
+  {
+    "id": "cloud201",
+    "title": "Cloud Computing with AWS",
+    "category": "Cloud",
+    "difficulty": "Intermediate",
+    "duration": "8 weeks",
+    "skills": ["AWS", "Cloud Architecture", "DevOps", "Deployment"],
+    "prerequisites": ["Backend Development"],
+    "rating": 4.7,
+    "description": "Deploy and manage applications on Amazon Web Services."
+  }
+]

@@ -1,0 +1,209 @@
+.profile-setup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: calc(100vh - 200px);
+}
+
+.setup-container {
+  background: white;
+  border-radius: 12px;
+  padding: 3rem;
+  width: 100%;
+  max-width: 800px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.setup-container h2 {
+  margin: 0 0 2rem 0;
+  color: #333;
+  text-align: center;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  margin-bottom: 3rem;
+  overflow: hidden;
+}
+
+.progress-fill {
+  height: 100%;
+  background: linear-gradient(90deg, #667eea, #764ba2);
+  transition: width 0.3s ease;
+}
+
+.setup-step h3 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.step-description {
+  color: #666;
+  margin-bottom: 2rem;
+}
+
+.interest-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.interest-chip {
+  padding: 0.75rem 1rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  color: #333;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.interest-chip:hover {
+  border-color: #667eea;
+}
+
+.interest-chip.selected {
+  background: #667eea;
+  border-color: #667eea;
+  color: white;
+}
+
+.experience-options {
+  display: grid;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.experience-card {
+  padding: 1.5rem;
+  background: white;
+  border: 2px solid #e0e0e0;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: all 0.3s;
+  text-align: left;
+}
+
+.experience-card:hover {
+  border-color: #667eea;
+}
+
+.experience-card.selected {
+  border-color: #667eea;
+  background: #f0f4ff;
+}
+
+.experience-card h4 {
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.experience-card p {
+  margin: 0;
+  color: #666;
+}
+
+.goal-form {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.goal-form input {
+  flex: 1;
+  padding: 0.75rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+.goal-form button {
+  padding: 0.75rem 1.5rem;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s;
+}
+
+.goal-form button:hover {
+  background: #5568d3;
+}
+
+.goals-list {
+  margin-bottom: 2rem;
+}
+
+.goal-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem 1rem;
+  background: #f8f9fa;
+  border-radius: 8px;
+  margin-bottom: 0.5rem;
+}
+
+.goal-item button {
+  background: none;
+  border: none;
+  color: #ff4444;
+  font-size: 1.2rem;
+  cursor: pointer;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+}
+
+.step-buttons {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+
+.back-btn,
+.next-btn,
+.complete-btn {
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
+.back-btn {
+  background: white;
+  border: 2px solid #ddd;
+  color: #666;
+}
+
+.back-btn:hover {
+  border-color: #667eea;
+  color: #667eea;
+}
+
+.next-btn,
+.complete-btn {
+  flex: 1;
+  background: #667eea;
+  color: white;
+}
+
+.next-btn:hover:not(:disabled),
+.complete-btn:hover:not(:disabled) {
+  background: #5568d3;
+}
+
+.next-btn:disabled,
+.complete-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
